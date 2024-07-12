@@ -20,8 +20,8 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
-  --color-secondary: #1b2f45;
+  --color-primary: #e65656;
+  --color-secondary: ;
 }
 
 /* Smooth scroll behavior */
@@ -109,7 +109,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(27, 47, 69, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   inset: 0;
 }
@@ -245,7 +245,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: #e65656;
   padding: 12px 0;
 }
 
@@ -258,7 +258,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
 }
 
@@ -495,7 +495,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/xi1/gallery/g\ \(8\).jpg") top center;
+  background: url("../img/xi1/bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -516,7 +516,7 @@ section {
 .hero:before {
   position: absolute;
   content: "";
-  background: rgba(27, 47, 69, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   inset: 0;
 }
 
@@ -761,7 +761,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/xi1/gallery/17an\ \(4\).jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/xi1/gallery/17an\ \(4\).jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -2112,7 +2112,7 @@ section {
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #29486a;
+  color: #e65656;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2145,7 +2145,7 @@ section {
 }
 
 .footer .footer-content .footer-links ul a {
-  color: #31547c;
+  color: #e65656;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
