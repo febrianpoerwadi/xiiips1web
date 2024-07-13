@@ -19,7 +19,7 @@
 
 /* Colors */
 :root {
-  --color-default: #2b180d;
+  --color-default: #000000;
   --color-primary: #e65656;
   --color-secondary: ;
 }
@@ -632,7 +632,7 @@ section {
 .why-us h4 {
   font-size: 18px;
   font-weight: 400;
-  color: #29486a;
+  color: #e65656;
   font-family: var(--font-secondary);
 }
 
@@ -644,7 +644,7 @@ section {
 .why-us .swiper-button-prev:after,
 .why-us .swiper-button-next:after {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: #e65656;
 }
 
 .why-us .swiper-button-prev {
